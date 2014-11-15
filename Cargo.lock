@@ -2,11 +2,10 @@
 name = "CodeJamAI"
 version = "0.0.1"
 dependencies = [
- "rust-GSL 0.4.9 (git+https://github.com/GuillaumeGomez/rust-GSL.git)",
+ "rust-GSL 0.4.9",
 ]
 
 [[package]]
 name = "rust-GSL"
 version = "0.4.9"
-source = "git+https://github.com/GuillaumeGomez/rust-GSL.git#6e277d2d7a7736527fa30e96207fb4f397d5a48b"
 

@@ -14,7 +14,7 @@ def makeCSV(fname):
             output += str(pixels[x, y]) + ' '
 
     with open((os.path.splitext(fname)[0] + ('.csv')), 'a') as file:
-        file.write(output + 'n')
+        file.write(output)
 
 if (len(sys.argv) < 2):
     print 'enter a directory'
