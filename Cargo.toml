@@ -3,3 +3,9 @@
 name = "CodeJamAI"
 version = "0.0.1"
 authors = ["Scott Cooper <scott.cooper2@mail.mcgill.ca", "Jit Kanetkar <satyajit.kanetkar@mail.mcgill.ca"]
+
+[dependencies.image]
+
+git = "https://github.com/PistonDevelopers/rust-image"
+
+

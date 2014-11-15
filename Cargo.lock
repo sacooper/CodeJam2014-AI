@@ -1,0 +1,12 @@
+[root]
+name = "CodeJamAI"
+version = "0.0.1"
+dependencies = [
+ "image 0.1.0 (git+https://github.com/PistonDevelopers/rust-image)",
+]
+
+[[package]]
+name = "image"
+version = "0.1.0"
+source = "git+https://github.com/PistonDevelopers/rust-image#3a398831adb22f1200cb68682e446ede187d23b9"
+
