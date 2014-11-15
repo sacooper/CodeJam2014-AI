@@ -3,10 +3,16 @@ name = "CodeJamAI"
 version = "0.0.1"
 dependencies = [
  "image 0.1.0 (git+https://github.com/PistonDevelopers/rust-image)",
+ "rust-GSL 0.4.9 (git+https://github.com/GuillaumeGomez/rust-GSL.git)",
 ]
 
 [[package]]
 name = "image"
 version = "0.1.0"
 source = "git+https://github.com/PistonDevelopers/rust-image#3a398831adb22f1200cb68682e446ede187d23b9"
+
+[[package]]
+name = "rust-GSL"
+version = "0.4.9"
+source = "git+https://github.com/GuillaumeGomez/rust-GSL.git#6e277d2d7a7736527fa30e96207fb4f397d5a48b"
 

@@ -9,3 +9,9 @@ authors = ["Scott Cooper <scott.cooper2@mail.mcgill.ca", "Jit Kanetkar <satyajit
 git = "https://github.com/PistonDevelopers/rust-image"
 
 
+# [dependencies.nalgebra]
+# git = "https://github.com/sebcrozet/nalgebra"
+
+
+[dependencies.rust-GSL]
+git = "https://github.com/GuillaumeGomez/rust-GSL.git"
