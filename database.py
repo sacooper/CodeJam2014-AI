@@ -9,12 +9,17 @@ def makeCSV(fname):
 
     pixels = img.load()
     output = ''
-    for x in range(0, width):
-        for y in range(0, height):
+    outputMirror = ''
+    for x in range(0, height):
+        for y in range(0, width):
             output += str(pixels[x, y]) + ' '
+            outputMirror += str(pixels[width - x, y]) + ' '
 
     with open((os.path.splitext(fname)[0] + ('.csv')), 'a') as file:
         file.write(output + 'n')
+
+    with open((os.path.splitext(fname)[0] + ('F.csv')), 'a') as file:
+        file.write(outputMirror + 'n')
 
 if (len(sys.argv) < 2):
     print 'enter a directory'
