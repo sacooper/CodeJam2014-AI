@@ -16,10 +16,10 @@ def makeCSV(fname):
             outputMirror += str(pixels[maxw-x, y]) + ' '
 
     with open((os.path.splitext(fname)[0] + ('.csv')), 'a') as file:
-        file.write(output + 'n')
+        file.write(output)
 
     with open((os.path.splitext(fname)[0] + ('F.csv')), 'a') as file:
-        file.write(outputMirror + 'n')
+        file.write(outputMirror)
 
 if (len(sys.argv) < 2):
     print 'enter a directory'
