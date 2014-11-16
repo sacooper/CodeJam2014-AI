@@ -13,5 +13,5 @@ authors = ["Scott Cooper <scott.cooper2@mail.mcgill.ca", "Jit Kanetkar <satyajit
 
 
 [dependencies.rust-GSL]
-# git = "https://github.com/sacooper/rust-GSL.git"
-path = "/home/scott/Dropbox/Programming/Rust/rust-GSL"
+git = "https://github.com/sacooper/rust-GSL.git"
+#path = "/home/scott/Dropbox/Programming/Rust/rust-GSL"
