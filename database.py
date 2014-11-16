@@ -25,6 +25,10 @@ if (len(sys.argv) < 2):
     print 'enter a directory'
     sys.exit()
 
+if (sys.argv[1].endswith('.gif')):
+    makeCSV(sys.argv[1])
+    sys.exit()
+
 for root, dirs, files in os.walk(sys.argv[1]):
     for fname in files:
         if fname.endswith('.gif'):
